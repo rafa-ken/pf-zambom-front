@@ -1,0 +1,60 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build output
+dist/
+build/
+.cache/
+vite-dist/
+
+# Editor e IDEs
+.vscode/
+.idea/
+*.sw?
+*.swo
+*.swn
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testes
+coverage/
+*.lcov
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Configurações específicas de SO / ferramentas
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Outras ferramentas comuns
+.eslintcache
+.stylelintcache
+.husky/_/
