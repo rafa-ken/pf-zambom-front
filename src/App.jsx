@@ -5,7 +5,9 @@ import InvestorsForm from "./components/InvestorsForm";
 import TripsForm from "./components/TripsForm";
 import TripsTable from "./components/TripsTable";
 
-const BACKEND = import.meta.env.VITE_API_URL || "http://localhost:8080";
+const BACKEND = import.meta.env.DEV
+  ? (import.meta.env.VITE_API_URL || "http://localhost:8080")
+  : "/api";
 
 function App() {
   const { loginWithRedirect, logout, isAuthenticated, user, getAccessTokenSilently } = useAuth0();
